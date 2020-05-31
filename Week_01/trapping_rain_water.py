@@ -14,4 +14,4 @@ class Solution:
                 res += (dist * h)
             stack.append(idx)
             idx += 1
-        return res
+        return ress
