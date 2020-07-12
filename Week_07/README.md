@@ -9,7 +9,7 @@ class Trie(object):
     def insert(self, word):
         node = self.root
         for char in word:
-            node = node .setdefault(char, {})
+            node = node.setdefault(char, {})
         node[self.end_of_word] = self.end_of_word
     
     def search(self, word):
